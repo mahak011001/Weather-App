@@ -8,6 +8,8 @@ const static_path = path.join(__dirname , "../public");
 const viewPath = path.join(__dirname ,"../templates/views");
 const partials_path = path.join(__dirname ,"../templates/partials");
 
+
+
 app.set("view engine","hbs");
 app.set("views",viewPath);
 hbs.registerPartials(partials_path);
